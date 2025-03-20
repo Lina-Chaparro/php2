@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Docente</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+    <h1>Formulario de Docente</h1>
+    <h2>Por favor diligenciar la siguiente información:</h2>
+    <br>
+    <form action="datosDocente.php" method="post">
+        <div>
+            <label>Nombre:</label>
+            <input name="nombre" type="text" maxlength="15" required>
+        </div><br>
+        <div>
+            <label>Apellido:</label>
+            <input name="apellido" type="text" maxlength="15" required>
+        </div><br>
+        <div>
+            <label>Email:</label>
+            <input name="email" type="text" maxlength="50" required>
+        </div><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
